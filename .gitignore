@@ -1,0 +1,27 @@
+# Secretos (NUNCA se suben)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Base de datos local
+*.sqlite3
+
+# Archivos generados por Django
+staticfiles/
+media/
+
+# Pruebas, cobertura y linters
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+
+# Editores
+.idea/
+.vscode/
